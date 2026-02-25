@@ -1,5 +1,17 @@
-.idea/
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+.venv/
 .env
+
+# Mac
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Data (don’t commit large datasets)
+data/*.json
+data/*.jsonl
+data/*.zip
+data/*.csv
